@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+</head>
+<body>
+    <h1>404 - Code Resource Asset Not Found</h1>
+    <p id="timestamp"></p>
+
+    <script>
+        function displayTimestamp() {
+            const now = new Date();
+            const timestamp = now.toLocaleString();
+            document.getElementById('timestamp').textContent = "Error occurred: " + timestamp;
+        }
+
+        displayTimestamp();
+    </script>
+</body>
+  </html>
+  
